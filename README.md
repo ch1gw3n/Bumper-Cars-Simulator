@@ -1,9 +1,7 @@
-# Bumper-Cars-Simulator
+# Bumper Cars Simulator
 
 ## Overview
 A virtual bumper car simulator inspired by the behavior of boids, featuring both single-player and multiplayer modes. Players can control their cars via an OSC (Open Sound Control) interface, with unique features such as NPC cars, customizable player car colors, and sound effects to enhance the gameplay experience.
-
----
 
 ## Features
 
@@ -17,14 +15,10 @@ A virtual bumper car simulator inspired by the behavior of boids, featuring both
 - **Physics-Based Interactions**: Cars bounce off each other and display boundaries.
 - **Sound Effects**: Realistic audio feedback for car collisions and boundary hits.
 
----
-
 ## Getting Started
 
 ### Prerequisites
 - Required Libraries: `gui`, `math`, `random`, `osc`, `music`
-
----
 
 ## Controls
 - **Movement**: Controlled via OSC input from the `interface.py` script.
@@ -44,8 +38,6 @@ A virtual bumper car simulator inspired by the behavior of boids, featuring both
 | 28829  | Purple      |
 | 28830  | Pink        |
 
----
-
 ## Code Structure
 
 ### Main Components
@@ -58,22 +50,16 @@ A virtual bumper car simulator inspired by the behavior of boids, featuring both
 - `interface.py`: Handles OSC input for car control.
 - `gui.py`, `osc.py`, `music.py`: Supporting modules for GUI, OSC, and audio.
 
----
-
 ## Rules and Behavior
 The car movements are influenced by three boids-inspired rules:
 1. **Separation**: Cars avoid collisions by moving away from nearby cars.
 2. **Alignment**: Cars align their velocity with neighboring cars.
 3. **Cohesion**: Cars are attracted to a central point.
 
----
-
 ## Future Enhancements
 - Integrate a scoring system.
 - Implement additional car models and dynamic obstacles.
 - Enhance the AI behavior for NPCs.
-
----
 
 ## Audio
 ### Sound Effects
@@ -84,8 +70,7 @@ The car movements are influenced by three boids-inspired rules:
 ### Background Music
 - `carnival.wav`: Loops throughout gameplay.
 
----
+## Contact Information
+- **Author:** Chi Nguyen
+- **Email:** c.n91702@gmail.com
 
-## Credits
-- **Developed by**: Chi Nguyen
-- **Inspiration**: Boids simulation
