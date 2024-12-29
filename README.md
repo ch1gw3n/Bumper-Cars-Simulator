@@ -46,9 +46,9 @@ A virtual bumper car simulator inspired by the behavior of boids, featuring both
 3. **NPC**: Represents non-playable cars with autonomous behavior.
 
 ### Key Scripts
-- `bump_it.py`: Main game logic and entry point.
-- `interface.py`: Handles OSC input for car control.
-- `gui.py`, `osc.py`, `music.py`: Supporting modules for GUI, OSC, and audio.
+- `bumperCarsMulti.py`: Main game logic and entry point for multiplayer mode.
+- `bumper.py`: Handles OSC input for car control.
+- `interface.py`: Handles GUI for bumper cars program.
 
 ## Rules and Behavior
 The car movements are influenced by three boids-inspired rules:
