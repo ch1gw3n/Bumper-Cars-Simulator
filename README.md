@@ -1,4 +1,4 @@
-# Bumper Cars Simulator
+# Bumpitz - A Bumper Cars Simulator
 
 ## Overview
 A virtual bumper car simulator inspired by the behavior of boids, featuring both single-player and multiplayer modes. Players can control their cars via an OSC (Open Sound Control) interface, with unique features such as NPC cars, customizable player car colors, and sound effects to enhance the gameplay experience.
